@@ -12,7 +12,7 @@ function App() {
 
   const handleMoodSubmit = async (mood) => {
     try {
-      const response = await axios.post('http://127.0.0.1:5000/recommend', { mood });
+      const response = await axios.post('https://hope-backend-dzmc.onrender.com/recommend', { mood });
       setSongs(response.data.recommended_songs);
       setError('');
       setFormVisible(false); // Hide the form after successful submission
