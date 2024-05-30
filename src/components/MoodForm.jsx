@@ -9,7 +9,7 @@ const MoodForm = ({ onMoodSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex w-full h-[calc(100vh-200px)]  flex-col items-center justify-center">
+    <form onSubmit={handleSubmit} className="flex w-full h-[calc(100vh-300px)]  flex-col items-center justify-center">
       <input
         type="text"
         value={mood}

@@ -2,14 +2,14 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer class="text-gray-400 absolute bottom-0 w-full bg-gray-900 body-font">
-  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-      <img src="/technology-icon.png" width={30} className='invert-[100%]' alt="" />
-      <span class="ml-3 text-xl">SynerPrex</span>
+    <footer className="text-gray-400 absolute bottom-0 w-full bg-gray-900 body-font">
+  <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+      <img src="/HOPE/technology-icon.png" width={30} className='invert-[100%]' alt="" />
+      <span className="ml-3 text-xl">SynerPrex</span>
     </a>
-    <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2024 SynerPrex —
-      <a href="https://synerprex.freewebhostmost.com/apps.html" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@HOPE</a>
+    <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2024 SynerPrex —
+      <a href="https://synerprex.freewebhostmost.com/apps.html" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@HOPE</a>
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a href='https://www.facebook.com/profile.php?id=100094133804081' className="text-gray-500">
